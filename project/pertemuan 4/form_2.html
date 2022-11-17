@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+  <h2>HTML Forms</h2>
+
+  <form action="tabel_1.html">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="John"><br><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+
+
+    <label for="fname">Alamat:</label><br>
+    <textarea>
+    Contoh isi textarea
+   </textarea><br><br>
+
+
+    <label for="fname">Jenis Kelamin:</label><br>
+    <input type="radio" name="sex" value="pria"> Pria <br>
+    <input type="radio" name="sex" value="wanita"> Wanita <br><br>
+
+    <label for="fname">Chekbox- Hari:</label><br>
+    <input type="checkbox" name="day" value="senin"> Senin <br>
+    <input type="checkbox" name="day" value="selasa"> Selasa <br>
+    <input type="checkbox" name="day" value="rabu"> Rabu<br> <br>
+
+    <label for="fname">DropDown List - Negara:</label><br>
+    <select name="country">
+      <option value="indonesia">Indonesia</option>
+      <option value="malaysia">Malaysia</option>
+      <option value="filipina">Filipina</option>
+      <option value="vietnam">Vietnam</option>
+     </select><br> <br>
+
+     <label for="fname">Reset Form:</label><br>
+     <input type="reset" name="reset" value="Kosongkan Form"><br><br>
+
+     <fieldset>
+      <label for="username">Username</label>
+      <input type="text" name="username" id="username">
+      <label for="password">Password</label>
+      <input type="text" name="password" id="password">
+     </fieldset><br><br>
+
+     <fieldset>
+      <legend>Login</legend>
+      <label for="username">Username</label>
+      <input type="text" name="username" id="username">
+      <label for="password">Password</label>
+      <input type="text" name="password" id="password">
+     </fieldset><br><br>
+
+     
+    <input type="submit" value="Submit">
+  </form>
+
+  <p>If you click the "Submit" button, the form-data will be sent to a page called "tabel_1.html".</p>
+
+</body>
+
+</html>
