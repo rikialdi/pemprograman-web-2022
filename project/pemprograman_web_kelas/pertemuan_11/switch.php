@@ -6,7 +6,7 @@
 
 <body>
     <?php
-$day = date("D");
+$day = date("D"); // DD MM YY
 switch ($day) {
     case 'Sun':
         $hari = "Minggu";
@@ -32,7 +32,26 @@ switch ($day) {
     default:
         $hari = "Kiamat";
 }
-echo "Hari ini hari <b>$hari</b>";
+echo "Hari ini hari <b>$hari</b><br>";
+
+// grade A B C D E
+$grade = "D";
+    $valuenya = "";
+switch ($grade) {
+        case 'A':
+            $valuenya = "Grade A rentang 85 - 100";
+            break;
+        case 'B':
+            $valuenya = "Grade B rentang 75 - 85";
+            break;
+        case 'C':
+            $valuenya = "Grade C rentang 50 - 74";
+            break;
+        default:
+            $valuenya = "Grade tidak memenuhi";
+            break; 
+    }
+    echo "<b>$valuenya</b><br>";
 ?>
 
 </body>

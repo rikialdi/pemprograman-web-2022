@@ -18,7 +18,7 @@
       border: solid 1px #DDEEEE;
       border-collapse: collapse;
       border-spacing: 0;
-      width: 70%;
+      width: 100%;
       margin: 10px auto 10px auto;
     }
     table thead th {

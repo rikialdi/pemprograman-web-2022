@@ -10,10 +10,11 @@
     $teks2 = "Kelasprogrammer.com";
     $a = 5;
     $b = 8;
-
+    $c = 10; 
+    
     echo "<h2>" . $teks1 . "</h2>";
     echo "Belajar di " . $teks2 . "<br>";
-    echo $a + $b;
+    echo $a + $b + $c;
 ?>
 </body>
 
